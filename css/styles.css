@@ -106,7 +106,7 @@ img.grayscale {
 }
 
 .header {
-  height: 80%;
+  height: 100%;
   background: #f68076 url('http://www.bootply.com/assets/example/pt_topo_l.png') repeat center center fixed;
 }
 
@@ -131,6 +131,7 @@ img.grayscale {
 
 
 .blurb {
+  height: 100%;
   padding: 120px 0;
   background-color:#fefefe;
 }
@@ -145,6 +146,7 @@ img.grayscale {
 }
 
 .featurette {
+  height: 100%;
   background: #222334;
   padding: 50px 0;
   color: #ffffff;
