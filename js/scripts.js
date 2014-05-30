@@ -9,3 +9,7 @@ $('.scroll-down').click(function(){
 
 /* highlight the top nav as scrolling occurs */
 $('body').scrollspy({ target: '#navbar' })
+
+// my script
+
+$('#navbar1').data('offset-top', $(window).height())
