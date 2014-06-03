@@ -240,3 +240,62 @@ footer {
     opacity: 20%;
     color: rgba(53, 50, 85, 0.83);
 }
+
+#gradient >div
+{
+	height: 110px;
+	margin: 10px 0;
+        cursor:pointer;
+        
+}
+	
+#gradient >div:nth-child(even)
+{
+	background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.23), #fff);
+	background: -moz-linear-gradient(left, rgba(0, 0, 0, 0.23), #fff);
+	background: -ms-linear-gradient(left, rgba(0, 0, 0, 0.23), #fff);
+	background: -o-linear-gradient(left, rgba(0, 0, 0, 0.23), #fff);
+}
+
+#gradient >div:nth-child(odd)
+{
+	background: -webkit-linear-gradient(right, rgba(0, 0, 0, 0.23), #fff);
+	background: -moz-linear-gradient(right, rgba(0, 0, 0, 0.23), #fff);
+	background: -ms-linear-gradient(right, rgba(0, 0, 0, 0.23), #fff);
+	background: -o-linear-gradient(right, rgba(0, 0, 0, 0.23), #fff);
+}
+
+#gradient > div > img
+{
+  height:inherit;
+}
+
+#gradient > div > div > p
+{
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+#gradient > div > div > p.col-md-3
+{
+  margin: 0px 12px;
+  padding: 0 0;
+}
+
+#gradient > div:nth-child(2) > div > p
+{
+  margin-bottom: 2px;
+}
+
+#gradient > div:nth-child(2) > div > p:nth-child(3)
+{
+  margin: 0 0 2px 0;
+  padding: 0 0;
+}
+
+#gradient > div:nth-child(3) > img
+{
+  position: relative;
+  top: -11px;
+  right: 6px
+}
