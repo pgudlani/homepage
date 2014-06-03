@@ -232,3 +232,11 @@ footer {
   margin-bottom:17px;
 }
 
+.simple
+{
+    text-transform: none;
+    font-size: 17px;
+    font-weight: 400;
+    opacity: 20%;
+    color: rgba(53, 50, 85, 0.83);
+}
