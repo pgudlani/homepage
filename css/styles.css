@@ -251,18 +251,18 @@ footer {
 	
 #gradient >div:nth-child(even)
 {
-	background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.23), #fff);
-	background: -moz-linear-gradient(left, rgba(0, 0, 0, 0.23), #fff);
-	background: -ms-linear-gradient(left, rgba(0, 0, 0, 0.23), #fff);
-	background: -o-linear-gradient(left, rgba(0, 0, 0, 0.23), #fff);
+	background: -webkit-linear-gradient(left, rgba(40, 0, 141, 0.25), #fff);
+	background: -moz-linear-gradient(left, rgba(40, 0, 141, 0.25), #fff);
+	background: -ms-linear-gradient(left, rgba(40, 0, 141, 0.25), #fff);
+	background: -o-linear-gradient(left, rgba(40, 0, 141, 0.25), #fff);
 }
 
 #gradient >div:nth-child(odd)
 {
-	background: -webkit-linear-gradient(right, rgba(0, 0, 0, 0.23), #fff);
-	background: -moz-linear-gradient(right, rgba(0, 0, 0, 0.23), #fff);
-	background: -ms-linear-gradient(right, rgba(0, 0, 0, 0.23), #fff);
-	background: -o-linear-gradient(right, rgba(0, 0, 0, 0.23), #fff);
+	background: -webkit-linear-gradient(right, rgba(40, 0, 141, 0.25), #fff);
+	background: -moz-linear-gradient(right, rgba(40, 0, 141, 0.25), #fff);
+	background: -ms-linear-gradient(right, rgba(40, 0, 141, 0.25), #fff);
+	background: -o-linear-gradient(right, rgba(40, 0, 141, 0.25), #fff);
 }
 
 #gradient > div > img
